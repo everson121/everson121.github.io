@@ -1,0 +1,59 @@
+#body{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#LB1{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(155, 151, 151);
+}
+
+#LB2{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(155, 151, 151);
+}
+
+#LB3{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(155, 151, 151);
+}
+
+#LB4{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(155, 151, 151);
+}
+
+#texto{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#texto2{
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+#T1{
+    text-align: center;
+    width: 150px;
+    background-color: rgb(155, 151, 151);
+}
+
+#T2{
+    text-align: center;
+    width: 150px;
+    background-color: rgb(155, 151, 151);
+}
+
+#T3{
+    text-align: center;
+    width: 150px;
+    background-color: rgb(155, 151, 151);
+}
+
+
