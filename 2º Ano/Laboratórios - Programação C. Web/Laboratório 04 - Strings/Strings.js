@@ -200,7 +200,7 @@ function diasDeVida()
 
     console.log(resultado)
 
-    document.getElementById("R").value = "Faz "+resultado+" dias que você está vivo!!"
+    document.getElementById("R").value = "Total de:"+resultado+" dias "
 
 }
 
@@ -314,7 +314,7 @@ function diferenca()
 
     let R = ((Rdia + (Rmes*30) + (Rano*365))/7)-0.5 ;
 
-    document.getElementById("R").value = "A distância entre "+date1+" e "+date2+" é igual a "+R.toFixed(0)+" semanas";
+    document.getElementById("R").value = "A distância é de:"+R.toFixed(0)+" semanas";
 
 }
 
