@@ -2,7 +2,7 @@ body{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: rgb(182, 93, 4);
+    background-color: rgb(8, 8, 8);
 }
 
 #img{
@@ -11,31 +11,28 @@ body{
   border-color: #000;
 }
 
-#caixa{
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+#logo{
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
 }
-
 
 #logo{
-    max-width: 100px;
-    width: auto;
-    height: 100px;
+    max-width: 250px;
+    height: 250px;
     height: auto;
+    width:auto    
 }
 
-#imagem{
-    text-align: center;
+h1{
+    text-justify: center;
+    width: 100%;
+    font size: 75px;;
 }
-
-#caixa{
-    color: rgb(6, 101, 245);
-    border-radius: 100px;
-    background-color: white;
+img{
+    width: 500px;
 }
-
-
 
 .receita1{
     float: left;
@@ -45,14 +42,9 @@ body{
 .receita2{
     float: right;
     text-align: left;
-    padding-top: 2%;
+    padding-top: 0%;
 }
 
-.receita3{
-    float: right;
-    text-align: left;
-    padding-top: 5%;
-}
 .br{
     clear: both;
 }
