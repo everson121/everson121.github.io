@@ -28,32 +28,11 @@ function montaDiv(receita) {
     descricao.appendChild(descricaoText);
 
     receita1.appendChild(titulo);
-    receita1.appendChild(descricao);
     receita1.appendChild(foto);
-
+    receita1.appendChild(descricao);
     
     let receita2 = document.createElement("div");
     receita2.classList.add("receita2");
-
-    let tituloPreparo = document.createElement("h4");
-    let tituloPreparoText = document.createTextNode("Preparo:");
-    tituloPreparo.appendChild(tituloPreparoText);
-    receita2.appendChild(tituloPreparo);
-
-
-
-    let ol = document.createElement("ol");
-
-    for(let i = 0; i < receita.preparo.length; i++) {
-        
-        let tituloPreparo = document.createElement("li");
-        let tituloPreparoText = document.createTextNode(receita.preparo[i]);
-        tituloPreparo.appendChild(tituloPreparoText);
-        ol.appendChild(tituloPreparo);
-    }    
-    
-    receita2.appendChild(ol);
-
 
 
     let tituloIngredientes = document.createElement("h4");
@@ -73,7 +52,27 @@ function montaDiv(receita) {
     }    
     
     receita2.appendChild(ul);
+
+    let tituloPreparo = document.createElement("h4");
+    let tituloPreparoText = document.createTextNode("Preparo:");
+    tituloPreparo.appendChild(tituloPreparoText);
+    receita2.appendChild(tituloPreparo);
+
+
+
+    let ol = document.createElement("ol");
+
+    for(let i = 0; i < receita.preparo.length; i++) {
+        
+        let tituloPreparo = document.createElement("li");
+        let tituloPreparoText = document.createTextNode(receita.preparo[i]);
+        tituloPreparo.appendChild(tituloPreparoText);
+        ol.appendChild(tituloPreparo);
+    }    
+    
+    receita2.appendChild(ol);
   
+/* ---------------------------------------------------*/
 
     divReceita.appendChild(receita1)
     divReceita.appendChild(receita2)

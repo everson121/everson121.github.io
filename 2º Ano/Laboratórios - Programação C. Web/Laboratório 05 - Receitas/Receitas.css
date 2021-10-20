@@ -1,38 +1,20 @@
 body{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
     background-color: rgb(8, 8, 8);
 }
 
 #img{
   border-width: medium;
   border-style: solid;
-  border-color: #000;
+  border-color: rgb(255, 255, 255);
 }
 
-#logo{
-    text-align: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    display: flex;
-}
-
-#logo{
-    max-width: 250px;
-    height: 250px;
-    height: auto;
-    width:auto    
-}
-
-h1{
-    text-justify: center;
-    width: 100%;
-    font size: 75px;;
-}
-img{
+.img{
     width: 500px;
 }
+
 
 .receita1{
     float: left;
